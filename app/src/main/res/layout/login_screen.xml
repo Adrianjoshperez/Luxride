@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <!-- Logo Placeholder -->
+    <View
+        android:layout_width="194dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/logo" />
+
+    <!-- User Field -->
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="#888888"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="#F5F5F5" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pass"
+        android:inputType="textPassword"
+        android:textColorHint="#888888"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:background="#F5F5F5" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
